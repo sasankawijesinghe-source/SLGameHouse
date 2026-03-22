@@ -733,14 +733,8 @@
       <p class="section-sub">Place your order via WhatsApp for the fastest response, or fill in the form below.</p>
     </div>
     <div class="contact-methods reveal">
-      <a href="https://wa.me/94XXXXXXXXX?text=Hi!%20I%20want%20to%20order%20from%20SLGameHouse" class="contact-btn whatsapp-btn" target="_blank">
+      <a href="https://wa.me/94772777347?text=Hi!%20I%20want%20to%20order%20from%20SLGameHouse" class="contact-btn whatsapp-btn" target="_blank">
         📱 WhatsApp Us
-      </a>
-      <a href="https://facebook.com/slgamehouse" class="contact-btn fb-btn" target="_blank">
-        📘 Facebook
-      </a>
-      <a href="https://instagram.com/slgamehouse" class="contact-btn insta-btn" target="_blank">
-        📸 Instagram
       </a>
     </div>
     <div class="order-form reveal">
@@ -805,11 +799,8 @@
     <div class="footer-col">
       <h4>Contact</h4>
       <ul>
-        <li><a href="#">📱 +94 7X XXX XXXX</a></li>
-        <li><a href="#">📧 info@slgamehouse.lk</a></li>
-        <li><a href="#">📍 Sri Lanka</a></li>
-        <li><a href="#">📘 /slgamehouse</a></li>
-        <li><a href="#">📸 @slgamehouse</a></li>
+        <li><a href="https://wa.me/94772777347">📱 +94 77 277 7347</a></li>
+        <li><a href="#">📍 Sri Lanka 🇱🇰</a></li>
       </ul>
     </div>
   </div>
@@ -821,7 +812,7 @@
 
 <div class="toast" id="toast">✅ Order sent via WhatsApp!</div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // Cursor
 const cursor = document.getElementById('cursor');
 const ring = document.getElementById('cursorRing');
@@ -905,10 +896,7 @@ renderGames();
 
 function orderGame(name, type) {
   const msg = encodeURIComponent(`Hi SLGameHouse! I want to ${type} "${name}". Please send me details.`);
-  window.open(`https://wa.me/94XXXXXXXXX?text=${msg}`, '_blank');
-}
-
-// Gift Cards Data
+  window.open(`https://wa.me/94772777347?text=${msg}`, '_blank');
 const giftCards = [
   { name: "PlayStation Network", sub: "PSN Wallet Top-up", emoji: "🎮", color: "#003791,#0070d1", prices: ["Rs. 500","Rs. 1,000","Rs. 2,500","Rs. 5,000"], btnColor: "#0070d1,#003791", txtColor: "white" },
   { name: "Razer Gold", sub: "For Games & In-App Items", emoji: "🟢", color: "#1a2208,#2d3d0d", prices: ["Rs. 500","Rs. 1,000","Rs. 2,000"], btnColor: "#ace004,#7aa300", txtColor: "#000" },
@@ -945,10 +933,7 @@ function selectPrice(el) {
 
 function orderCard(name) {
   const msg = encodeURIComponent(`Hi SLGameHouse! I want to buy a "${name}" gift card. Please send details.`);
-  window.open(`https://wa.me/94XXXXXXXXX?text=${msg}`, '_blank');
-}
-
-// Order Form
+  window.open(`https://wa.me/94772777347?text=${msg}`, '_blank');
 function submitOrder() {
   const name = document.getElementById('fname').value.trim();
   const phone = document.getElementById('fphone').value.trim();
@@ -964,15 +949,4 @@ function submitOrder() {
     `Hello SLGameHouse! 🎮\n\n` +
     `Name: ${name}\nPhone: ${phone}\nOrder: ${type}\nPlatform: ${platform}\nDetails: ${details}`
   );
-  window.open(`https://wa.me/94XXXXXXXXX?text=${msg}`, '_blank');
-  showToast();
-}
-
-function showToast() {
-  const t = document.getElementById('toast');
-  t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), 3500);
-}
-</script>
-</body>
-</html>
+  window.open(`https://wa.me/94772777347?text=${msg}`, '_blank');
